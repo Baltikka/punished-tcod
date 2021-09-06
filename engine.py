@@ -37,10 +37,10 @@ def main():
     max_monsters_per_room = 5
 
     colors = {
-        'dark_wall': libtcod.Color(0, 60, 60),
+        'dark_wall': libtcod.Color(0, 50, 50),
         'dark_ground': libtcod.Color(0, 20, 20),
-        'light_wall': libtcod.Color(25, 80, 80),
-        'light_ground': libtcod.Color(20, 40, 40)
+        'light_wall': libtcod.Color(25, 60, 60),
+        'light_ground': libtcod.Color(20, 30, 30)
     }
     
     fighter_component = Fighter(hp=30, defense=2, power=5)
